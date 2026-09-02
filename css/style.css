@@ -519,9 +519,13 @@ section { padding: 40px 0; }
 
 .autoridade-split {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 40px;
+  grid-template-columns: 1.3fr 0.7fr;
+  gap: 50px;
   align-items: center;
+}
+.autoridade-split .foto-col {
+  max-width: 400px;
+  margin: 0 auto;
 }
 
 /* ---------- como funciona ---------- */
