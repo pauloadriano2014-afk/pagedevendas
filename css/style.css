@@ -674,3 +674,35 @@ footer .brand { margin-bottom: 8px; }
   .price-box { animation: none; }
   .reveal { opacity: 1; transform: none; transition: none; }
 }
+/* ---------- aspect-ratio reservado (evita CLS nas imagens desktop/mobile) ---------- */
+.ar-hero { aspect-ratio: 1536 / 1024; }
+.ar-problema { aspect-ratio: 1536 / 1024; }
+.ar-produto-header { aspect-ratio: 1774 / 887; }
+.ar-metodos { aspect-ratio: 1717 / 916; }
+.ar-suporte { aspect-ratio: 1983 / 793; }
+.ar-como-recebe { aspect-ratio: 1717 / 916; }
+.ar-faq { aspect-ratio: 1024 / 1536; }
+.ar-cta-final { aspect-ratio: 1536 / 1024; }
+.ar-depoimentos-header { aspect-ratio: 1672 / 941; }
+.ar-oferta { aspect-ratio: 1536 / 1024; }
+.ar-ancoragem { aspect-ratio: 1536 / 1024; }
+.ar-autoridade-texto { aspect-ratio: 1448 / 1086; }
+.ar-bonus-header { aspect-ratio: 1780 / 883; }
+.ar-whatsapp-header { aspect-ratio: 1774 / 887; }
+
+@media (max-width: 780px) {
+  .ar-hero { aspect-ratio: 941 / 1672; }
+  .ar-problema { aspect-ratio: 941 / 1672; }
+  .ar-produto-header { aspect-ratio: 941 / 1672; }
+  .ar-metodos { aspect-ratio: 941 / 1672; }
+  .ar-suporte { aspect-ratio: 941 / 1672; }
+  .ar-como-recebe { aspect-ratio: 941 / 1672; }
+  .ar-faq { aspect-ratio: 1024 / 1536; }
+  .ar-cta-final { aspect-ratio: 941 / 1672; }
+  .ar-depoimentos-header { aspect-ratio: 941 / 1672; }
+  .ar-oferta { aspect-ratio: 1024 / 1536; }
+  .ar-ancoragem { aspect-ratio: 1023 / 1537; }
+  .ar-autoridade-texto { aspect-ratio: 1024 / 1536; }
+  .ar-bonus-header { aspect-ratio: 941 / 1672; }
+  .ar-whatsapp-header { aspect-ratio: 941 / 1672; }
+}
