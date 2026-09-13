@@ -708,8 +708,69 @@ footer .brand { margin-bottom: 8px; }
   .ar-cta-final { aspect-ratio: 941 / 1672; }
   .ar-depoimentos-header { aspect-ratio: 941 / 1672; }
   .ar-oferta { aspect-ratio: 1024 / 1536; }
-  .ar-ancoragem { aspect-ratio: 1023 / 1537; }
+  .ar-ancoragem { aspect-ratio: 1080 / 1920; }
   .ar-autoridade-texto { aspect-ratio: 1024 / 1536; }
   .ar-bonus-header { aspect-ratio: 941 / 1672; }
   .ar-whatsapp-header { aspect-ratio: 941 / 1672; }
+}
+
+/* ---------- promessa (8 semanas) ---------- */
+.promessa { background:#000; padding-top: 60px; border-top: 1px solid #161616; }
+.promessa-title {
+  font-family: 'Anton', sans-serif;
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: .02em;
+  margin-bottom: 30px;
+}
+.promessa-title span { color: var(--green); }
+.promessa-list { display:flex; flex-direction: column; gap: 16px; max-width: 700px; margin: 0 auto; }
+.promessa-item {
+  display:flex;
+  align-items:flex-start;
+  gap: 18px;
+  background: var(--panel);
+  border: 1px solid var(--grid);
+  border-radius: 10px;
+  padding: 18px 22px;
+  transition: transform .25s ease, border-color .25s ease;
+}
+.promessa-item:hover { transform: translateX(4px); border-color: var(--purple); }
+.promessa-item p { color: var(--white); font-size: 16px; margin:0; font-family:'Barlow', sans-serif; }
+.promessa-item .check { flex-shrink: 0; margin-top: 2px; }
+
+/* ---------- timeline (3 fases) ---------- */
+.timeline { background:#000; padding-top: 60px; border-top: 1px solid #161616; }
+.timeline-title {
+  font-family: 'Anton', sans-serif;
+  text-align: center;
+  font-size: 28px;
+  letter-spacing: .02em;
+  margin-bottom: 30px;
+}
+.timeline-title span { color: var(--purple); }
+.timeline-grid { display:grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+.timeline-card {
+  background: var(--panel);
+  border: 1px solid var(--grid);
+  border-radius: 10px;
+  padding: 28px 24px;
+  transition: transform .25s ease, border-color .25s ease;
+}
+.timeline-card:hover { transform: translateY(-6px); border-color: var(--green); }
+.timeline-card .num {
+  font-family:'Anton', sans-serif;
+  color: var(--green);
+  font-size: 14px;
+  letter-spacing: .1em;
+  margin-bottom: 12px;
+  display:block;
+}
+.timeline-card h3 { font-family:'Anton', sans-serif; font-size: 19px; margin-bottom: 10px; letter-spacing: .02em; }
+.timeline-card p { color: var(--grey); font-size: 15px; margin:0; line-height: 1.5; }
+
+@media (max-width: 780px) {
+  .timeline-grid { grid-template-columns: 1fr; }
+  .promessa-title { font-size: 24px; }
+  .timeline-title { font-size: 22px; }
 }
