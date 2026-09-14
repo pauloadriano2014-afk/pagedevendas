@@ -682,7 +682,7 @@ footer .brand { margin-bottom: 8px; }
   .reveal { opacity: 1; transform: none; transition: none; }
 }
 /* ---------- aspect-ratio reservado (evita CLS nas imagens desktop/mobile) ---------- */
-.ar-hero { aspect-ratio: 1536 / 1024; }
+.ar-hero { aspect-ratio: 1672 / 941; }
 .ar-problema { aspect-ratio: 1536 / 1024; }
 .ar-produto-header { aspect-ratio: 1774 / 887; }
 .ar-metodos { aspect-ratio: 1717 / 916; }
@@ -696,6 +696,7 @@ footer .brand { margin-bottom: 8px; }
 .ar-autoridade-texto { aspect-ratio: 1448 / 1086; }
 .ar-bonus-header { aspect-ratio: 1780 / 883; }
 .ar-whatsapp-header { aspect-ratio: 1774 / 887; }
+.ar-autoridade { aspect-ratio: 1672 / 941; }
 
 @media (max-width: 780px) {
   .ar-hero { aspect-ratio: 941 / 1672; }
@@ -712,6 +713,7 @@ footer .brand { margin-bottom: 8px; }
   .ar-autoridade-texto { aspect-ratio: 1024 / 1536; }
   .ar-bonus-header { aspect-ratio: 941 / 1672; }
   .ar-whatsapp-header { aspect-ratio: 941 / 1672; }
+  .ar-autoridade { aspect-ratio: 533 / 768; }
 }
 
 /* ---------- promessa (8 semanas) ---------- */
